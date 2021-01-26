@@ -1,12 +1,28 @@
 .warranty {
+  background-color: var(--b-middle);
   &-title {
     @include font(800, 26px, 1.307, 0.03em);
     color: var(--txt-dark);
     text-align: center;
+    margin-bottom: 30px;
+  }
+  &-list {
+    padding: 30px 20px 31px 20px;
   }
   &-item {
     @include font(500, 12px, 1.67, 0.03em);
     color: var(--txt-dark);
     text-align: start;
+    &:not(:last-child) {
+      margin-bottom: 23px;
+    }
+  }
+  &-orange-text {
+    @include font(500, 12px, 1.67, 0.03em);
+    color: var(--txt-orange);
+    text-align: start;
+  }
+  &.section {
+    padding-bottom: 0;
   }
 }
