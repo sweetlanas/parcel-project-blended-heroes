@@ -1,2 +1,12 @@
-.warranty-title {
+.warranty {
+  &-title {
+    @include font(800, 26px, 1.307, 0.03em);
+    color: var(--txt-dark);
+    text-align: center;
+  }
+  &-item {
+    @include font(500, 12px, 1.67, 0.03em);
+    color: var(--txt-dark);
+    text-align: start;
+  }
 }
