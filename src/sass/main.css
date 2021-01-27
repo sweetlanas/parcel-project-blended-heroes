@@ -76,17 +76,20 @@ a {
   padding: 0 16px;
   margin: 0 auto;
 }
+
 @media screen and (min-width: 320px) {
   .container {
     max-width: 320px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 0 38px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1386px;
@@ -103,6 +106,7 @@ a {
     padding-bottom: 130px;
   }
 }
+
 .warranty {
   background-color: var(--b-middle);
 }
@@ -229,4 +233,6 @@ a {
   br {
     display: none;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
+
