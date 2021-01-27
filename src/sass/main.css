@@ -117,6 +117,8 @@ a {
 }
 .warranty-list {
   padding: 30px 20px 31px 20px;
+  width: 320px;
+  margin: auto;
 }
 .warranty-item {
   font-weight: 500;
@@ -142,6 +144,13 @@ a {
   padding-bottom: 0;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .warranty-corect .container {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+}
 .feedback.section {
   padding: 50px 20px;
 }
@@ -214,4 +223,10 @@ a {
 .feedback-link {
   text-decoration: underline;
   color: var(--txt-orange);
+}
+
+@media screen and (min-width: 768px) {
+  br {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

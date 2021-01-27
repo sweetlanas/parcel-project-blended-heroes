@@ -53,3 +53,8 @@
     color: var(--txt-orange);
   }
 }
+@media screen and (min-width: 768px) {
+  br {
+    display: none;
+  }
+}
