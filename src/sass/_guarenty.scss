@@ -2,7 +2,7 @@
   background-color: var(--b-middle);
   &-title {
     @include font(800, 26px, 1.307, 0.03em);
-    color: var(--txt-dark);
+    color: #3d3d3d;
     text-align: center;
     margin-bottom: 30px;
   }
@@ -22,7 +22,7 @@
     color: var(--txt-orange);
     text-align: start;
   }
-  &.section {
-    padding-bottom: 0;
-  }
+}
+.section.warranty-corect {
+  padding-bottom: 0;
 }

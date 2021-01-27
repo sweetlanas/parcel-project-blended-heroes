@@ -111,7 +111,7 @@ a {
   font-size: 26px;
   line-height: 1.307;
   letter-spacing: 0.03em;
-  color: var(--txt-dark);
+  color: #3d3d3d;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -137,20 +137,18 @@ a {
   color: var(--txt-orange);
   text-align: start;
 }
-.warranty.section {
+
+.section.warranty-corect {
   padding-bottom: 0;
 }
 
-.feedback {
-  background-color: var(--b-light-grey);
-  -webkit-box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
-          box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
-}
 .feedback.section {
   padding: 50px 20px;
 }
 .feedback-content {
-  background-color: var(--b-white);
+  -webkit-box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
+          box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
+  padding: 20px 20px 30px 20px;
 }
 .feedback-title {
   font-weight: 800;
@@ -159,4 +157,61 @@ a {
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 20px;
+}
+.feedback-picture {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 20px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.feedback-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto 20px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.feedback-username {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.214;
+  letter-spacing: 0.08em;
+  text-align: center;
+  color: var(--txt-orange);
+  margin-bottom: 10px;
+}
+.feedback-text-light {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-align: center;
+  color: var(--txt-grey);
+  margin-bottom: 10px;
+}
+.feedback-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-align: center;
+  color: #3d3d3d;
+  margin-bottom: 10px;
+}
+.feedback-text-orange {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-align: center;
+  color: var(--txt-orange);
+  text-decoration: underline;
+}
+.feedback-link {
+  text-decoration: underline;
+  color: var(--txt-orange);
 }/*# sourceMappingURL=main.css.map */
