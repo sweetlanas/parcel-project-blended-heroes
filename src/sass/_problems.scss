@@ -131,9 +131,11 @@
         display: flex;
         flex-wrap: wrap;
     }
+    @media screen and (min-width: 768px) and  (max-width: 1199px) {
     .problems-item:nth-child(2n) { 
             margin-left: 22px;
     }
+}
     .problems-item:not(:nth-last-child(-n + 2)) {
         margin-bottom: 30px;
       }
@@ -149,6 +151,10 @@
     margin-bottom: 32px;
     // outline: 1px solid red;
   }
+//   .problems-item:nth-child(3n) { 
+//     margin-left: 40px;
+//     outline: 1px solid red
+// }
  }
 .problems-number {
     font-style: normal;
@@ -175,8 +181,8 @@
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .problems-text {
-        width: 215px;
-        @include font(700, 14px, 1.714, 0.08em);
+        width: 236px;
+        @include font(700, 14px, 1.428, 0.08em);
     }
 .problems-text.training {
     width: 200px;
@@ -194,7 +200,7 @@
 
 @media screen and (min-width: 1200px) {
     .problems-text {
-    width: 320px;
-    @include font(700, 20px, 1.2, 0.08em);
+    width: 336px;
+    @include font(700, 20px, 1.4, 0.08em);
 }
 }
