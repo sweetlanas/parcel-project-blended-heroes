@@ -1548,7 +1548,7 @@ a {
             justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 70px 84px;
+    padding: 45px 60px;
   }
 
   .program-dignity-item {
@@ -1567,7 +1567,7 @@ a {
 
   .program-dignity-text {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.2;
     letter-spacing: 0.08em;
   }
@@ -1579,10 +1579,27 @@ a {
 @media screen and (min-width: 1374px) {
   .program-dignity-items {
     width: 1314px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 70px 84px;
   }
 
   .program-list-img {
     left: -140px;
+  }
+
+  .program-dignity-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
   }
 }
 .teacher-main-title {
