@@ -215,3 +215,8 @@
     @include font(700, 20px, 1.2, 0.08em);
   }
 }
+@media screen and (min-width: 1374px) {
+  .problems-block-white {
+    width: 1314px;
+  }
+}
