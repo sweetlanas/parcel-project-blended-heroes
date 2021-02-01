@@ -67,11 +67,17 @@
   text-transform: uppercase;
   border: none;
   box-sizing: border-box;
+
+  transition: color 400ms var(--timer);
+  transition: background-color 250ms var(--timer);
+
   &:hover,
   &:focus {
     background-color: transparent;
     color: var(--txt-orange);
     border: 2px solid var(--b-accent-background);
+
+    transform: opasity;
   }
 }
 
@@ -299,5 +305,6 @@
     position: absolute;
     margin: 0;
     left: 183px;
+    top: 0;
   }
 }

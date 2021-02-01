@@ -33,6 +33,7 @@
   /*icon*/
   --light: #ff6b09;
   --white: #ffffff;
+  --timer: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -99,7 +100,7 @@ a {
   padding-bottom: 50px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1374px) {
   .section {
     padding-bottom: 130px;
   }
@@ -206,6 +207,8 @@ a {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--txt-light);
+  -webkit-transition: color 250ms var(--timer);
+  transition: color 250ms var(--timer);
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-nav-link {
@@ -239,6 +242,8 @@ a {
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: var(--txt-orange);
+  -webkit-transform: opasity;
+          transform: opasity;
 }
 
 .header-consult-link {
@@ -257,10 +262,16 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 14px 0;
+  -webkit-transition: color 400ms var(--timer);
+  transition: color 400ms var(--timer);
+  -webkit-transition: background-color 250ms var(--timer);
+  transition: background-color 250ms var(--timer);
 }
 .header-consult-link:hover, .header-consult-link:focus {
   background-color: var(--b-accent-background);
   color: var(--txt-light);
+  -webkit-transform: opasity;
+          transform: opasity;
 }
 @media screen and (min-width: 1200px) {
   .header-consult-link {
@@ -899,6 +910,8 @@ a {
   -webkit-box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.1);
   margin-bottom: 15px;
+  -webkit-transition: color 250ms var(--timer);
+  transition: color 250ms var(--timer);
 }
 
 .doings-item:last-child {
@@ -909,16 +922,22 @@ a {
 .doings-item:focus {
   background-color: var(--b-accent-background);
   color: var(--txt-light);
+  -webkit-transform: opasity;
+          transform: opasity;
 }
 
 .doings-item:hover .doings-svg,
 .doings-item:focus .doings-svg {
   fill: var(--white);
+  -webkit-transform: opasity;
+          transform: opasity;
 }
 
 .doings-item:hover .doings-description,
 .doings-item:focus .doings-description {
   color: var(--txt-light);
+  -webkit-transform: opasity;
+          transform: opasity;
 }
 
 .doings-item:hover .doings-list-title::after,
@@ -962,6 +981,8 @@ a {
   margin-top: 30px;
   margin-bottom: 20px;
   fill: var(--light);
+  -webkit-transition: fill 250ms var(--timer);
+  transition: fill 250ms var(--timer);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1015,6 +1036,8 @@ a {
 
   .doings-description {
     padding: 0 22px;
+    -webkit-transition: color 250ms var(--timer);
+    transition: color 250ms var(--timer);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2195,9 +2218,6 @@ a {
   }
 }
 @media screen and (min-width: 1200px) {
-  .feedback.section {
-    padding: 130px 0;
-  }
   .feedback-content {
     width: 1090px;
     padding: 50px 112px 50px 82px;
@@ -2248,6 +2268,11 @@ a {
 
   .arrow-right {
     right: 60px;
+  }
+}
+@media screen and (min-width: 1374px) {
+  .feedback.section {
+    padding: 130px 0;
   }
 }
 .request-form {
@@ -2392,11 +2417,17 @@ a {
   border: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: color 400ms var(--timer);
+  transition: color 400ms var(--timer);
+  -webkit-transition: background-color 250ms var(--timer);
+  transition: background-color 250ms var(--timer);
 }
 .btn:hover, .btn:focus {
   background-color: transparent;
   color: var(--txt-orange);
   border: 2px solid var(--b-accent-background);
+  -webkit-transform: opasity;
+          transform: opasity;
 }
 
 .footer-white {
@@ -2715,5 +2746,6 @@ a {
     position: absolute;
     margin: 0;
     left: 183px;
+    top: 0;
   }
 }/*# sourceMappingURL=main.css.map */
