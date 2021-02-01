@@ -50,13 +50,26 @@
   }
 }
 
-.test {
+.logo-icon-wrapper {
   vertical-align: middle;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.logo-title {
+  @include font(800, 17px, 1.235, 0.04em);
+  color: var(--txt-dark);
+}
+
+.logo-icon {
+  width: 13px;
+  height: 20px;
 }
 
 .logo-description {
-  @include font(700, 5px, 1.2, 0.21em);
+  @include font(700, 5px, 1.25, 0.21em);
   color: var(--txt-dark);
+  text-transform: uppercase;
 }
 
 .header-nav-list {
