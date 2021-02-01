@@ -140,9 +140,6 @@
 }
 @media screen and (min-width: 1200px) {
   .feedback {
-    &.section {
-      padding: 130px 0;
-    }
     &-content {
       width: 1090px;
       padding: 50px 112px 50px 82px;
@@ -177,5 +174,12 @@
   }
   .arrow-right {
     right: 60px;
+  }
+}
+@media screen and (min-width: 1374px) {
+  .feedback {
+    &.section {
+      padding: 130px 0;
+    }
   }
 }

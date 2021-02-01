@@ -37,7 +37,6 @@
       display: flex;
     }
   }
-
   &-title-wrapper {
     @media screen and (min-width: 768px) {
       text-align: left;
@@ -107,9 +106,13 @@
     }
 
     @media screen and (min-width: 1200px) {
+      min-width: 714px;
+      height: auto;
+      position: absolute;
+    }
+    @media screen and (min-width: 1374px) {
       width: 840px;
       height: 720px;
-      position: absolute;
     }
   }
 }

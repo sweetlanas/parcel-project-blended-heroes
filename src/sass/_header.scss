@@ -76,6 +76,8 @@
   @include font(800, 20px, 1.18, 0.03em);
   color: var(--txt-light);
 
+  transition: color 250ms var(--timer);
+
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     @include font(800, 26px, 1.808, 0.03em);
   }
@@ -98,6 +100,8 @@
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: var(--txt-orange);
+
+  transform: opasity;
 }
 
 .header-consult-link {
@@ -115,6 +119,17 @@
   box-sizing: border-box;
 
   padding: 14px 0;
+
+  transition: color 400ms var(--timer);
+  transition: background-color 250ms var(--timer);
+
+  &:hover,
+  &:focus {
+    background-color: var(--b-accent-background);
+    color: var(--txt-light);
+
+    transform: opasity;
+  }
 
   @media screen and (min-width: 1200px) {
     width: 336px;
