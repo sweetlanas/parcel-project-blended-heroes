@@ -262,7 +262,7 @@
 
 @media screen and (min-width: 1200px) {
   .program-section {
-    min-height: 1566px;
+    min-height: 1750px;
   }
   .program-container {
     width: 100%;
@@ -372,6 +372,7 @@
     margin-bottom: 32px;
   }
 }
+
 @media screen and (min-width: 1374px) {
   .program-dignity-items {
     width: 1314px;
@@ -386,5 +387,9 @@
   }
   .program-dignity-text {
     @include font(700, 20px, 1.2, 0.08em);
+
+@media screen and (min-width: 1680px) {
+  .program-section {
+    min-height: 1566px;
   }
 }

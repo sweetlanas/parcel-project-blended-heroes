@@ -83,7 +83,7 @@
 
 .footer {
   &-white {
-    height: 199px;
+    min-height: 199px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -126,6 +126,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
   }
 }
 .logo {
@@ -171,7 +172,7 @@
       left: -28px;
     }
     &-white {
-      height: 125px;
+      min-height: 125px;
       & .container {
         align-items: center;
         display: flex;
@@ -189,8 +190,10 @@
     width: 24px;
     height: 23px;
     justify-content: center;
+
     &-groupe {
       flex-direction: row;
+      margin-bottom: 0;
     }
     &-number {
       @include font(600, 20px, 1.2, 0.08em);

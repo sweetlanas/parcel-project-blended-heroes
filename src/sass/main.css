@@ -521,6 +521,8 @@ a {
   .hero-img {
     width: 840px;
     height: 720px;
+    position: absolute;
+
   }
 }
 
@@ -2431,7 +2433,7 @@ a {
 }
 
 .footer-white {
-  height: 199px;
+  min-height: 199px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2510,6 +2512,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .logo {
@@ -2562,7 +2565,7 @@ a {
     left: -28px;
   }
   .footer-white {
-    height: 125px;
+    min-height: 125px;
   }
   .footer-white .container {
     -webkit-box-align: center;
@@ -2597,6 +2600,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin-bottom: 0;
   }
   .phone-number {
     font-weight: 600;
